@@ -230,7 +230,7 @@ p{
     transition: 0.9s ease-in-out;
 }
 
-@media all and (max-width:575px){
+/*@media all and (max-width:575px){
     .container{
         font-size:10px;
         margin-right: 200px;
@@ -290,4 +290,258 @@ p{
   }
  
 
+}*/
+@media (max-width:576px){
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        
+    }
+  .image{
+    width:100%;
+  }
+   
+   
+    
+    .header{
+        margin-top:-130px;
+        margin-left:22px;
+        font-size:12px;
+    }
+    svg{
+        margin-right:40px;
+    }
+    .input-container{
+        width:100%;
+        margin-left:10px;
+    }
+    .list-container{
+        width:100%;
+        margin-left:10px;
+        overflow: hidden;
+    }
+    .attributes{
+        width:100%;
+        margin-left:10px;
+        display:flex;
+        flex-direction: column;
+        padding:12px;
+        line-height: 20px;
+    }
+   
+    .remove{
+        margin-left:-330px;
+
+    }
+    .all,.active,.completed,.clearcompleted{
+         padding:6px;
+        
+    }
+
+
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+
+
+
+.header{
+    margin-top:-130px;
+    margin-left:-20px;
+    font-size:12px;
+}
+svg{
+    margin-right:-20px;
+}
+.input-container{
+    width:130%;
+    margin-left:-30px;
+}
+.list-container{
+    width:130%;
+    margin-left:-30px;
+    overflow: hidden;
+}
+.attributes{
+    width:130%;
+    margin-left:-30px;
+    display:flex;
+    flex-direction: column;
+    padding:12px;
+    line-height: 20px;
+}
+
+.remove{
+    margin-left:-390px;
+
+}
+.all,.active,.completed,.clearcompleted{
+     padding:6px;
+    
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        
+    }
+    
+    
+    
+    
+    .header{
+        margin-top:-130px;
+        margin-left:50px;
+        font-size:12px;
+    }
+    svg{
+        margin-right:60px;
+    }
+    .input-container{
+        width:90%;
+        margin-left:50px;
+    }
+    .list-container{
+        width:90%;
+        margin-left:50px;
+        overflow: hidden;
+    }
+    .attributes{
+        width:90%;
+        margin-left:50px;
+        display: flex;
+        flex-direction: row;
+        padding:12px;
+        line-height: 20px;
+    }
+    
+    .remove{
+        margin-left:50px;
+    
+    }
+    .all,.active,.completed,.clearcompleted{
+         padding:6px;
+        
+    }
+    
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        
+    }
+    
+    
+    
+    
+    .header{
+        margin-top:10px;
+        margin-left:-80px;
+        font-size:23px;
+    }
+    svg{
+        margin-right:-120px;
+    }
+    .input-container{
+        width:130%;
+        margin-left:-80px;
+        font-size: 20px;
+    }
+    .list-container{
+        width:130%;
+        margin-left:-80px;
+        overflow: hidden;
+        font-size: 20px;
+    }
+    .attributes{
+        width:130%;
+        margin-left:-80px;
+        display: flex;
+        flex-direction: row;
+        padding:12px;
+        line-height: 20px;
+        
+    }
+    
+    .remove{
+        margin-left:250px;
+    
+    }
+    p{
+        font-size: 15px;  
+    }
+    .all,.active,.completed,.clearcompleted{
+         padding:6px;
+         font-size: 20px;
+        
+    }
+   }
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    *{
+        margin: 0;
+        padding:0;
+        box-sizing: border-box;
+        
+    }
+    
+    .header{
+        margin-top:10px;
+        margin-left:-80px;
+        font-size:20px;
+    }
+    svg{
+        margin-right:-100px;
+    }
+    .input-container{
+        width:130%;
+        margin-left:-80px;
+        font-size: 20px;
+    }
+    .list-container{
+        width:130%;
+        margin-left:-80px;
+        overflow: hidden;
+        font-size: 20px;
+    }
+    .attributes{
+        width:130%;
+        margin-left:-80px;
+        display: flex;
+        flex-direction: row;
+        padding:12px;
+        line-height: 20px;
+        
+    }
+    
+    .remove{
+        margin-left:120px;
+    
+    }
+    p{
+        font-size: 10px;  
+    }
+    .all,.active,.completed,.clearcompleted{
+         padding:6px;
+         font-size: 15px;
+        
+    }
+    
+   
 }
